@@ -40,5 +40,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: remix-deno-demo # TODO: replace with Deno Deploy project name
-          entrypoint: index.js
-          root: build
+          entrypoint: build/index.js
+          root: '.'
